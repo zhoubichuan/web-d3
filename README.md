@@ -1,9 +1,9 @@
-# cesium 学习笔记
+# d3 学习笔记
 
-![cesium](./src/.vuepress/public/home.png)
+![d3](./src/.vuepress/public/home.png)
 
 - 基础知识
-  - [一.cesium基础](/web-cesium/base/engine/1.index.html)
-  - [二.cesium案例](/web-cesium/base/project/1.index.html)
+  - [一.d3基础](/web-d3/base/engine/1.index.html)
+  - [二.d3案例](/web-d3/base/project/1.index.html)
 - 高级知识
-  - [一.cesium项目实践](/web-cesium/senior/component/1.index.html)
+  - [一.d3项目实践](/web-d3/senior/component/1.index.html)
