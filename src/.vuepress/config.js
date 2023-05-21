@@ -1,17 +1,10 @@
 const path = require("path");
-const webpack = require('webpack')
 module.exports = {
   title: "d3学习笔记",
   description: "风浪没平息 我宣告奔跑的意义",
   base: "/web-d3/", // 部署站点的基础路径
   port: 3009,
   configureWebpack: () => {
-    const NODE_ENV = process.env.NODE_ENV;
-    new webpack.ProvidePlugin({
-      "process.env": {
-        NODE_ENV: process.env,
-      },
-    })
     let target = {
       resolve: {
         alias: {
@@ -20,16 +13,6 @@ module.exports = {
         },
       },
     };
-    //判断是否是生产环境
-    if (NODE_ENV === "production") {
-      let newConfig = {
-        output: {
-          publicPath: "https://cdn.jsdelivr.net/gh/",
-        },
-      };
-      target = { ...target, ...newConfig };
-    } else {
-    }
     return target;
   },
   dest: "web-d3", // 指定 vuepress 的输出目录
