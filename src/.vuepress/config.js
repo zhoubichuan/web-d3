@@ -14,7 +14,6 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
   head: [
-    ['link', {  href: '/main.css' }]
     ['script', { src: '/d3.v7.js' }],
   ],
   plugins: {
