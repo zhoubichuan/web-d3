@@ -5,8 +5,9 @@ import service from '@/util/request.js'
 import * as china from 'echarts/map/json/china.json'
 import * as world from 'echarts/map/json/world.json'
 import chart from '@/util/chart.js'
-import cardinalSpline from '@/util/chart.js'
-import topojson  from 'topojson'
+import cardinalSpline from '@/util/cardinalSpline.js'
+import * as topojson  from 'topojson'
+import * as d3Sankey  from 'd3-sankey'
 let d3 = require('d3')
 
 export default {
@@ -14,6 +15,7 @@ export default {
     Vue.prototype.$chart = chart
     Vue.prototype.cardinalSpline=cardinalSpline
     Vue.prototype.topojson= topojson
+    Vue.prototype.d3Sankey= d3Sankey
     Vue.prototype.$d3 = d3
     Vue.prototype.$china = china.default
     Vue.prototype.$world = world.default
