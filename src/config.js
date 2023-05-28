@@ -4,10 +4,16 @@ import axios from 'axios'
 import service from '@/util/request.js'
 import * as china from 'echarts/map/json/china.json'
 import * as world from 'echarts/map/json/world.json'
+import chart from '@/util/chart.js'
+import cardinalSpline from '@/util/chart.js'
+import topojson  from 'topojson'
 let d3 = require('d3')
 
 export default {
   install (Vue) {
+    Vue.prototype.$chart = chart
+    Vue.prototype.cardinalSpline=cardinalSpline
+    Vue.prototype.topojson= topojson
     Vue.prototype.$d3 = d3
     Vue.prototype.$china = china.default
     Vue.prototype.$world = world.default

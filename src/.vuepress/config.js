@@ -15,6 +15,9 @@ module.exports = {
     };
     return target;
   },
+  head: [
+    ['script', { src: '/heatmap.min.js' }],
+  ],
   dest: "web-d3", // 指定 vuepress 的输出目录
   markdown: {
     toc: { includeLevel: [2, 3] },

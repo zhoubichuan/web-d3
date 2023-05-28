@@ -39,11 +39,12 @@
   },
   "dependencies": {
     "axios": "0.21.1",
-    "d3": "7.3.0",
+    "d3": "5.9.2",
     "echarts": "4.9.0",
     "element-ui": "2.15.9",
     "less": "^3.0.2",
     "lodash": "4.17.21",
+    "topojson": "^3.0.2",
     "vuepress": "^1.9.7",
     "vuepress-plugin-demo-container": "^0.2.0"
   }

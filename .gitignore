@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-/web-d3/
+web-d3/
 
 # Editor directories and files
 .idea
