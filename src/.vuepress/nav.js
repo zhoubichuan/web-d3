@@ -24,12 +24,12 @@ const nav = [
     text: "高级知识",
     items: [
       {
-        text: "一.SVG",
+        text: "一.SVG基础",
         link: "/senior/1.micro/1.index",
       },
 
       {
-        text: "二.渲染、绘制",
+        text: "二.SVG案例",
         link: "/senior/2.typescript/1.index",
       },
       {

@@ -1,4 +1,4 @@
-# d3 学习笔记
+# d3.js 学习笔记
 
 ![d3](./src/.vuepress/public/home.png)
 

@@ -8,4 +8,4 @@ meta:
     content: vuepress,最新技术文档,vuepress语法,markdown语法
 ---
 
-## Vue 相关资料推荐
+## D3.js 相关资料推荐
