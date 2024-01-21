@@ -3,59 +3,43 @@ const nav = [
     text: "初级知识",
     items: [
       {
-        text: "一.基础知识",
-        link: "/base/engine/1.index",
+        text: "一.SVG基础",
+        link: "/base/1.svg/1.index",
+      },
+
+      {
+        text: "二.SVG案例",
+        link: "/base/2.svgeg/1.index",
       },
       {
-        text: "二.基础案例",
-        link: "/base/project/1.index",
+        text: "三.D3.js文档",
+        link: "/base/3.d3/1.index",
       },
-      // {
-      //     text: '三.综合案例',
-      //     link: '/base/vue2.x/1.index'
-      // },
-      // {
-      //     text: '四.权限',
-      //     link: '/base/vue3.x/1.index'
-      // }
+      {
+        text: "四.D3.js初级用法",
+        link: "/base/4.d3eg/1.index",
+      },
     ],
   },
   {
     text: "高级知识",
     items: [
       {
-        text: "一.SVG基础",
-        link: "/senior/1.micro/1.index",
-      },
-
-      {
-        text: "二.SVG案例",
-        link: "/senior/2.typescript/1.index",
+        text: "一.基础知识",
+        link: "/senior/engine/1.index",
       },
       {
-        text: "三.会话",
-        link: "/senior/3.deploy/1.index",
+        text: "二.基础案例",
+        link: "/senior/project/1.index",
       },
       {
-        text: "四.事件循环",
-        link: "/senior/4.component/1.index",
+          text: '三.综合案例',
+          link: '/senior/vue2.x/1.index'
       },
       {
-        text: "五.垃圾回收",
-        link: "/senior/5/1.index",
-      },
-      {
-        text: "六.webkit深入",
-        link: "/senior/6/1.index",
-      },
-      {
-        text: "七.引擎",
-        link: "/senior/7/1.index",
-      },
-      {
-        text: "八.v8",
-        link: "/senior/8/1.index",
-      },
+          text: '四.权限',
+          link: '/senior/vue3.x/1.index'
+      }
     ],
   },
   {

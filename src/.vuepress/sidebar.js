@@ -1,68 +1,11 @@
 const sidebar = {
-    '/base/engine/': [
-        '1.index',
-        '1.barChart',
-        '2.boxplot',
-        '3.enclosureChart',
-        '4.force',
-        '5.basicFunnel',
-        '6.gauge',
-        '7.chord',
-        '8.heatMap',
-        '9.lineChart',
-        '10.map',
-        '11.pieChart',
-        '12.radarChart',
-        '13.riverChart'
-    ],
-    '/base/project/': [
-        '1.index',
-        '1.sanKeyChart',
-        '2.scatterChart',
-        '3.sunburst',
-        '4.treeChart',
-        '5.treeMapChart',
-        '6.configurePrem',
-        '7.internationalization',
-        '8.errorCollection',
-        '9.optimize',
-        '10.server',
-        '11.pwa',
-        '12.upload',
-        '13.video'
-    ],
-    '/base/vue2.x/': [
-        '1.index',
-        '1.vue-cli',
-        '2.vue',
-        '2.vue1',
-        '2.vue2',
-        '2.vue3',
-        '2.vue4',
-        '3.vue-router',
-        '4.vuex',
-        '5.ui',
-        '6.utils',
-        '7.style',
-        '8.eslint',
-    ],
-    '/base/vue3.x/': [
-        '1.index',
-        '1.vue-cli3',
-        '2.vue',
-        '2.vue1',
-        '3.vue-router',
-        '4.vuex',
-        '5.ui',
-        '6.vueuse'
-    ],
-    '/senior/1.micro/': [
+    '/base/1.svg/': [
         '1.index',
         '1.singlespa',
         '2.qiankun',
         '3.share'
     ],
-    '/senior/2.typescript/': [
+    '/base/2.svgeg/': [
         '1.index',
         '1.env',
         '2.base',
@@ -84,7 +27,7 @@ const sidebar = {
         '18.statement',
         '19.extend'
     ],
-    '/senior/3.deploy/': [
+    '/base/3.d3/': [
         '1.index',
         '1.local',
         '2.gitlab',
@@ -92,7 +35,7 @@ const sidebar = {
         '4.centos',
         '5.nginx'
     ],
-    '/senior/4.component/': [
+    '/base/4.d3eg/': [
         '1.index',
         '1.env',
         '1.recursion',
@@ -108,8 +51,62 @@ const sidebar = {
         '12.tree',
         '13.publish',
     ],
-    '/senior/vue3/': [
+    '/senior/engine/': [
         '1.index',
+        '1.barChart',
+        '2.boxplot',
+        '3.enclosureChart',
+        '4.force',
+        '5.basicFunnel',
+        '6.gauge',
+        '7.chord',
+        '8.heatMap',
+        '9.lineChart',
+        '10.map',
+        '11.pieChart',
+        '12.radarChart',
+        '13.riverChart'
+    ],
+    '/senior/project/': [
+        '1.index',
+        '1.sanKeyChart',
+        '2.scatterChart',
+        '3.sunburst',
+        '4.treeChart',
+        '5.treeMapChart',
+        '6.configurePrem',
+        '7.internationalization',
+        '8.errorCollection',
+        '9.optimize',
+        '10.server',
+        '11.pwa',
+        '12.upload',
+        '13.video'
+    ],
+    '/senior/vue2.x/': [
+        '1.index',
+        '1.vue-cli',
+        '2.vue',
+        '2.vue1',
+        '2.vue2',
+        '2.vue3',
+        '2.vue4',
+        '3.vue-router',
+        '4.vuex',
+        '5.ui',
+        '6.utils',
+        '7.style',
+        '8.eslint',
+    ],
+    '/senior/vue3.x/': [
+        '1.index',
+        '1.vue-cli3',
+        '2.vue',
+        '2.vue1',
+        '3.vue-router',
+        '4.vuex',
+        '5.ui',
+        '6.vueuse'
     ],
     '/source/vue-cli2.x/': [
         '1.index'
