@@ -1,0 +1,19 @@
+{
+  "name": "web-d3",
+  "version": "1.0.8",
+  "description": "web-d3",
+  "main": "index.js",
+  "author": "zhoubichaun@icloud.com",
+  "hommepage": "https://github.com/zhoubichuan/web-d3",
+  "license": "MIT",
+  "type":"module",
+  "scripts": {
+    "build": "cnpm i && gulp"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
