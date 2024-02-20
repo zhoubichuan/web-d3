@@ -1,8 +1,8 @@
 let d3 = require("d3");
 export default class Chart {
   constructor() {
-    this._width = 600;
-    this._height = 400;
+    this._width = document.querySelector('.map')?.clientWidth || 600;
+    this._height = document.querySelector('.map')?.clientHeight || 400;
     this._margins = { top: 30, left: 30, right: 30, bottom: 30 };
     this._data = [];
     this._scaleX = null;
